@@ -45,11 +45,11 @@ if(typeof(dojo) != "undefined") {
             waitFor( function(){
 			// wait until the "loading..." node has been hidden
 			// indicating that we have loaded content.
-   			dojo.query("span.shareSome-title")[0].textContent="Dont panic! ";
+   			dojo.query("span.shareSome-title")[0].textContent="42 is the answer...";
        	          },
 		  ".lotusStreamTopLoading div.loaderMain.lotusHidden");
       } catch(e) {
-          alert("Exception occurred in helloWorld: " + e);
+          alert("Exception occurred in hello world cusotmizer app: " + e);
       }
    });
 }
